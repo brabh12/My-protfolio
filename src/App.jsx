@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from '#components/Navbar.jsx';
 
 const App = () => {
     return (
-        <div className="text-3xl font-bold underline">Welcome To  MyPortfolio</div>
-    )
+        <main>
+            <Navbar />
+        </main>
+    );
 }
 export default App
 
