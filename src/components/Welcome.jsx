@@ -20,6 +20,9 @@ const renderText = (text, className, baseWeight = 400) => {
   ))
 }
 
+
+
+
 // Hover animation setup
 const setupTextHover = (container, type) => {
   if (!container) return
@@ -51,6 +54,10 @@ const setupTextHover = (container, type) => {
 
       animateLetter(letter, weight)
     })
+
+
+
+    
   }
 
   const handleMouseLeave = () => {
